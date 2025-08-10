@@ -30,3 +30,21 @@
   * *Schema generation: drop and create.*
 * quarkus.hibernate-orm.log.sql=true
   * *(optional) Show SQLs in the log.*
+
+## Apprenticeship Program ##
+* Resource Annotations: 
+  * @Path
+    * @Consumes
+    * @Produces
+  * @GET
+    * @PathParam
+    * @QueryParam
+  * @POST
+  * @PATCH
+  * @DELETE
+* Communication between Services:
+  * Synchrone
+    *  extension => rest-client-jackson
+      * @RegisterRestClient
+      * @RestClient
+  * Asynchronous
